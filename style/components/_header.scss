@@ -57,7 +57,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height:70%;
+    height:90%;
   
     &__header{
         font-family: $second-f-family;
@@ -77,13 +77,15 @@
     
 }
 @media (min-width:640px) {
-
+    .page-header{
+        font-size: 18px;
+    }
     .site-logo{
         top:20px; 
         font-size:4.5em;
     }
         .section-intro{
-            height: 80%;
+            height: calc(100% - 144px);
         &__header{
             font-size:4.5em;
         }

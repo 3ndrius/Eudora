@@ -9,14 +9,16 @@
     justify-content: center;
     align-items: center;
     line-height: 48px;
+    font-size:1.3em;
     font-weight:$fw-fat;
     letter-spacing: 0.3px;
 
-    &.btn--second{
+    &--second{
         color:$second-clr;
         border-color: $second-clr-light-2;
+        
     }
-    &.btn--third{
+    &--third{
         background: $third-clr;
         border-color:$third-clr;
     }

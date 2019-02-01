@@ -1,0 +1,50 @@
+.section-offer{
+    max-width: 1200px;
+    margin:20px auto;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &__header{
+        position: relative;
+
+        hr{
+            position: absolute;
+            top:20%;
+            left:0;
+            width:100%;
+            border-color: $third-clr;
+            z-index: -1;
+        }
+    }
+    &__h{
+        font-size:4.3em;;
+        font-family: $second-f-family;
+        color:$second-clr;
+        font-style: italic;
+        max-width: 75%;
+        background: white;
+        margin:50px auto;
+        padding:0 20px;
+
+    } 
+    &__p{
+        font-size:24px;
+        padding: 0 10%;
+    }
+    &__buttons{
+        display: flex;
+        width:70%;
+        justify-content: space-around;
+        margin:20px auto;
+        padding: 50px;
+
+    }
+}
+.site-h{
+
+}
+.site-p{
+
+}
