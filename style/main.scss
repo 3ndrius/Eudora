@@ -1,7 +1,11 @@
-@import './components/all';
 @import './modules/all';
+@import './components/all';
+
 
 body{
    background:$primary-clr;
    color:$second-clr-light;
+   background:green;
+   font-family: $main-f-family;
+   font-weight: $fw-medium;
 }

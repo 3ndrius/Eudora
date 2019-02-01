@@ -1,0 +1,14 @@
+.input{
+    width: 685px;
+    height: 65px;
+    border: 2px solid $second-clr-light-2;
+    color: $primary-clr;
+    background: transparent;
+    &::placeholder{
+        color: inherit;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: $fw-fat;
+        letter-spacing: 0.3px;      
+    }
+}
