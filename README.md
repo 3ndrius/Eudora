@@ -20,9 +20,8 @@ Free psd template from https://symu.co/freebies/
 
 </hr>
 
-![eudoria img full](img.png)
+![fullEudora](https://github.com/3ndrius/Eudora/blob/master/readme/full-eudoria.jpg?raw=true)
 
-![eudoria img mini](img.png)
 
 
 
