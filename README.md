@@ -1,6 +1,6 @@
 # Eudora
 
-Free psd template from....g
+Free psd template from https://symu.co/freebies/
 
 ## Parcel.js
 - no config manage
@@ -12,9 +12,17 @@ Free psd template from....g
 
 ## SASS
 - Syntactically Awesome Style Sheets (ex. var, nesting, partials, import, mixins, )
+
 ## BEM
 - block  (ex. app-nav)
 - element (ex. app-nav__list)
 - modifier (ex. app-nav__item--active)
+
+</hr>
+
+![eudoria img full](img.png)
+
+![eudoria img mini](img.png)
+
 
 

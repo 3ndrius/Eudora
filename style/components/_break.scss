@@ -1,0 +1,38 @@
+.section-break{
+    flex-direction: row;
+    margin: 5% 0;
+    width: 100%;
+    display: grid;
+    min-height: 450px;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
+    background: $third-clr;
+    overflow: hidden;
+    &__right{
+       display: none;
+    }
+    &__left{
+      justify-self: center;
+      align-self: center;
+      color:$primary-clr;
+      font-family:$second-f-family;
+      font-size:4em;
+      padding: 40px;
+      box-sizing: border-box;
+    
+    }
+}
+@media(min-width:640px) {
+    .section-break{
+        grid-template-columns: 1fr 2fr;   
+        &__right{
+            width: 100%;
+            height: auto;
+            background: url('/assets/img/photo2.png');
+            background-position: top center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: block;  
+        }
+    }
+}
