@@ -1,6 +1,6 @@
 # Eudora
 
-Free psd template from....
+Free psd template from....g
 
 ## Parcel.js
 - no config manage
@@ -11,7 +11,7 @@ Free psd template from....
 - ex. (header, main, section, article, footer )
 
 ## SASS
-    - Syntactically Awesome Style Sheets (ex. var, nesting, partials, import, mixins, )
+- Syntactically Awesome Style Sheets (ex. var, nesting, partials, import, mixins, )
 ## BEM
 - block  (ex. app-nav)
 - element (ex. app-nav__list)
