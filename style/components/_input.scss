@@ -1,9 +1,12 @@
 .input{
-    width: 685px;
+    max-width: 685px;
+    width: 90%;
     height: 65px;
+    box-sizing: border-box;
     border: 2px solid $second-clr-light-2;
     color: $primary-clr;
     background: transparent;
+    margin-bottom:50px;
     &::placeholder{
         color: inherit;
         text-transform: uppercase;

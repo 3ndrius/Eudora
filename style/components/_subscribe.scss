@@ -1,0 +1,21 @@
+.section-subscribe{
+    width: 100%;
+    margin:0 auto;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('/assets/img/photo4.png') no-repeat top center;
+    background-size: cover;
+    padding-bottom: 50px;
+    
+    &__h1{
+        font-family: $second-f-family;
+        font-size:4em;
+        color:$primary-clr;
+        font-style: italic;
+        text-align: center;
+    }
+
+}
