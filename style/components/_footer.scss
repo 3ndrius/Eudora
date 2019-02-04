@@ -12,14 +12,13 @@
         display:flex;
         list-style-type: none;
         flex-wrap: wrap;
+        justify-content: flex-end;
     }
     &__item{
         padding: 0 8px;
         text-transform: uppercase;
     }
-    &__copy{
-        min-width: 100px;
-    }
+
 }
 @media(min-width:640px) {
     .footer{

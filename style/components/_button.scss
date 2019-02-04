@@ -12,6 +12,9 @@
     font-size:1.3em;
     font-weight:$fw-fat;
     letter-spacing: 0.3px;
+    &:hover{
+        cursor: pointer;
+    }
 
     &--second{
         color:$second-clr;
